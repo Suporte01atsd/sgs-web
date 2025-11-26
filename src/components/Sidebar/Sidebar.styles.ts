@@ -9,7 +9,7 @@ interface SidebarProps {
     $showSubmenu?: boolean;
     $isVisible?: boolean;
     $comingSoon?: boolean;
-}
+};
 
 export const SidebarContainer = styled.div<SidebarProps>`
     position: fixed;
